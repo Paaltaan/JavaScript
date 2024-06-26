@@ -1,0 +1,49 @@
+body {
+    background-image: url(acva.jpg);
+    height: 100%;
+
+}
+div.wrapper {
+    border-radius: 10px;
+    background-color:  teal;
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+      font-style: bold;
+      font-family: "Luminari", "fantasy";
+      font-weight: 100;
+      font-size:  2.6em;
+      text-transform: uppercase;
+  }
+
+
+  #seconds, #milliseconds, .point{
+      font-size: 2em;
+      font-weight: bold;
+      font-style: normal;
+  }
+
+  button {
+      border-radius: 10px;
+      background: teal;
+      color: white;
+      border: solid 1px white;
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 18px 10px;
+      width: 150px;
+      margin: 10px;
+      outline: none;
+      margin-top: 20px;
+  }
+
+  button:hover{
+      transition: all 0.5s ease-in-out;
+      background: white;
+      border: solid 1px white;
+      color:teal;
+  }
